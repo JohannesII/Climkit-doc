@@ -1,0 +1,15 @@
+site_name: Documentation Climkit
+nav:
+    - "Accueil": index.md
+    - "Manuel de l'installateur": manuel.md
+    - "Modes d'emplois et schémas": sch_diag_manual.md
+    - "Contrats et formulaires": contracts.md
+    - "Liste des prix": prices.md
+    - "Cadre législatif": legal.md
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+extra_css: [extra_css/custom_style.css]
